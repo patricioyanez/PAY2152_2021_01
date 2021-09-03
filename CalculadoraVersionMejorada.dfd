@@ -1,0 +1,75 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+79
+'Calculadora: 1 para sumar, 2 para restar, 3 para dividir y 4 para multiplicar'
+5
+1
+9
+operacion
+4
+1
+42
+'Ingrese el 1er y 2do nro respectivamente'
+5
+1
+7
+numero1
+5
+1
+7
+numero2
+7
+0
+1
+13
+operacion = 1
+7
+0
+1
+13
+operacion = 2
+7
+0
+1
+13
+operacion = 3
+7
+0
+1
+13
+operacion = 4
+4
+1
+22
+'Operación  no válida'
+13
+4
+1
+38
+'El resultado es: ', numero1 / numero2
+13
+13
+4
+1
+38
+'El resultado es: ', numero1 * numero2
+13
+13
+4
+1
+38
+'El resultado es: ', numero1 - numero2
+13
+13
+4
+1
+38
+'El resultado es: ', numero1 + numero2
+13
+1
