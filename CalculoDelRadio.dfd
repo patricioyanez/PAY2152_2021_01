@@ -1,0 +1,30 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+49
+'Ingrese el valor del radio de la circunferencia'
+5
+1
+5
+RADIO
+7
+0
+1
+10
+RADIO >= 0
+4
+1
+22
+'No se puede calcular'
+13
+4
+1
+36
+'El radio es: ', 3.14 *(RADIO*RADIO)
+13
+1
