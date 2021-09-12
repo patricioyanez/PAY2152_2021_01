@@ -1,0 +1,80 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+25
+'Ingrese largo del cable'
+5
+1
+5
+largo
+7
+0
+1
+10
+largo<=100
+4
+1
+30
+'Esta fuera de lo recomendado'
+13
+4
+1
+28
+'Ingrese la categoria 5 o 6'
+5
+1
+9
+categoria
+7
+0
+1
+30
+categoria = 5 or categoria = 6
+4
+1
+21
+'Categoria no válida'
+13
+4
+1
+14
+'Deschaquetar'
+4
+1
+35
+'Ordenar los cables según la norma'
+4
+1
+10
+'Crimpiar'
+4
+1
+35
+'Testear la conectividad del cable'
+5
+1
+7
+conecto
+7
+0
+1
+11
+conecto = 1
+4
+1
+10
+'No sirve'
+13
+4
+1
+7
+'bakan'
+13
+13
+13
+1
