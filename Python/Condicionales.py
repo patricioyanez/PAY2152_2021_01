@@ -30,3 +30,7 @@ if edad >= 18:
     print("Ud es mayor de edad")
 else:
     print("Ud es menor de edad")
+
+
+nota = 3.1
+print(nota)
