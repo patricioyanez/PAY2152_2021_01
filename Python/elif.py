@@ -21,8 +21,8 @@ edad = int(edad) # convierte el texto(string) en un numero
 
 if edad <= 12:
     print("es un nin@")
-elif edad < 18:
-    print("e29s un adolescente")
+elif edad < 18: # else if 
+    print("es un adolescente")
 elif edad <= 29:
     print("es un adulto Joven")
 elif edad < 65:
