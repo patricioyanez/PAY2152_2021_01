@@ -1,0 +1,29 @@
+from gpio import *
+from time import *
+
+def encender(puerto):
+	digitalWrite(1, LOW);
+	digitalWrite(2, LOW);
+	digitalWrite(3, LOW);
+	digitalWrite(4, LOW);
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	digitalWrite(puerto, HIGH);
+def main():
+	pinMode(1, OUT)
+	print("Blinking")
+	led = 1;
+	while True:
+		led = 1;
+		while led <6:
+			encender(led);
+			delay(100);
+			led = led + 1;
+		while led != 0:
+			encender(led);
+			delay(100);
+			led = led - 1;
+		
+
+if __name__ == "__main__":
+	main()
