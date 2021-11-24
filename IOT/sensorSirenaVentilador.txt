@@ -1,0 +1,34 @@
+from gpio import *
+from time import *
+
+sensor 		= 0
+pantalla	= 1
+ventilador 	= 2
+sirena		= 3
+
+
+def main():
+	estado = 0
+	pinMode(sensor, IN)
+	print("Ventilador")
+	while True:
+		if digitalRead(sensor):
+			
+			if estado == 0:
+				customWrite(pantalla, "Ventilador encendido")
+				customWrite(ventilador, "2")
+				customWrite(sirena, "1")
+				sleep(3)
+				customWrite(sirena, "0")
+				estado = 1
+			else:
+				customWrite(pantalla, "Ventilador apagado")
+				customWrite(ventilador, "0")
+				estado = 0
+
+		sleep(2)
+		customWrite(pantalla, "")
+		
+
+if __name__ == "__main__":
+	main()
